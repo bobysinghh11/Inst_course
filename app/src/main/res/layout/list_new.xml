@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:padding="10dp"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/imgView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:text="Language"
+            android:id="@+id/tvLang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    <TextView
+           android:autoSizeTextType="none"
+            android:id="@+id/tvDesc"
+            android:textSize="15dp"
+            android:text="description"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</LinearLayout>
+</LinearLayout>
